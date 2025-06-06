@@ -6,44 +6,265 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: rgba(128, 128, 128, 0.151);
 }
 
 .encabezado {
-    height: 200px;
+    height: 120px;
     width: 100%;
     background-color: #004797;
     display: flex;
     justify-content: center;
     gap: 250px;
 }
+
+.container-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
 .img-logo {
-    width: 300px;
-    height: 100px;
+    width: 200px;
 }
 .encabezado-interaccion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
 }
+
 
 .interaccion-menu {
     display: flex;
     list-style: none;
     gap: 20px;
+}
 
+.interaccion-menu li{
+    padding: 10px;
+}
+.hiperofertas {
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.705);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.label {
+    color: rgba(250, 67, 1, 0.473);
+}
+
+.encabezado-interaccion ul .hiperofertas a {
+    
+    color: #004797 ;
 }
 
 .interaccion-menu a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
+
+
 .buscador {
     width: 700px;
     height:45px;
     border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
 }
+
+.buscador-opciones {
+    display: flex;
+    gap: 30px;
+}
+
+.mi-cuenta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    }
+
+.opciones-cuenta {
+    margin-left: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.mi-cuenta p{
+    color: white;
+
+    }
+
+.icono-usuario{
+        color: #004797;
+        font-size: 25px;
+        text-shadow: 0px 0px 2px white;
+    }
 
 .separador-naranja {
     width: 100%;
     height: 4px;
     background-color: rgb(255, 123, 0);
 }
+
+.secundario-opciones {
+    background-color: white;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;}
+
+.secundario-opciones li {
+    border-right: solid rgba(128, 128, 128, 0.575) 1px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: #004797;
+}
+
+
+
+
+
+
+
+
+.primera-seccion {
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+    height: 3900px;
+    border: solid 2px ;
+    margin-left: 270px;
+    gap: 30px;
+    
+    
+}
+
+.primera-visualizacion {
+    display: flex;
+    padding: 10px;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+
+
+.img-lanzamientos {
+    width: 47%;
+}
+.productos-categorias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 50%;
+    gap: 5px;
+}
+
+.categoria {
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    width: auto;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-top: 2px;
+
+
+
+}
+
+.categoria a img {
+    width: 70px;
+}
+.categoria a p{
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.categoria a {
+    text-decoration: none;
+}
+
+.navegacion-mitad {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+
+}
+
+.navegacion-mitad a img {
+    width: 30px;
+}
+
+.navegacion-mitad a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #004797;
+    border-right: solid 1px rgb(99, 94, 94);
+    padding-right: 40px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.papa {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.papa img {
+    width: 32%;
+    border-radius: 5px;
+}
+
+.inmejorables {
+    margin-left: 20px;
+    color: #004797;
+    font-size: 18px;
+}
+.celulares-titulo {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    margin-right: 60px;
+
+}
+
+.celulares-titulo a {
+    color: #eb5b25;
+
+}
+
+
+.celulares-promo {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.celulares-promo a {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.celulares-promo img    {
+    width: 95%;
+}
+
+
+
+
 
